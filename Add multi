@@ -1,0 +1,23 @@
+#// Online C compiler to run C program online\
+
+#include<stdio.h>
+int main() 
+{   
+    int a;
+    int b;
+    int c;
+    int m;
+    printf("enter first number");
+    scanf("%d" ,&a);   
+    printf("enter second number");
+    scanf("%d",&b);    
+    c=a+b;
+    printf("add is %d",c);
+    printf("enter first number");
+    scanf("%d",a);
+    printf("enter second number");
+    scanf("%d" ,b);
+    m=a*b;
+    printf("multiplication is %d" ,m);
+    return 0;
+}
