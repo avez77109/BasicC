@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() 
+{
+    const float pi=3.14;
+    float a,v,r;
+    
+    printf("enter radius  r=");
+    scanf("%f" , &r);
+    
+    
+    
+    a= pi * r * r ;
+    v=(4/3)*pi*r*r*r;
+  
+     
+     printf("Area is %f and volume is %f",a,v);
+    
+    
+    return 0;
+}
