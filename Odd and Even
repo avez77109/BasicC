@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    // Write C code here
+    printf("enter your number");
+    scanf("%d" , &a);
+    if(a%2==0)
+{
+    printf("your number is even");
+    printf("\n");
+}
+    else
+{
+    printf("your number is odd");
+    printf("\n");
+    return 0;
+}
+}
+
+
