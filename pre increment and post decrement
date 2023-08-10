@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a=35;
+    int x=++a;
+    printf("after the pre increment");
+    printf("\n");
+    printf("value of a=%d" ,a);
+    printf("\n");
+    printf("value of x=%d" ,x);
+    printf("\n");
+    int z=a--;
+    printf("after the post decrement");
+    printf("\n");
+    printf("value of a=%d" ,a);
+    printf("\n");
+    printf("value of z=%d" ,z);
+    return 0;
+    
+    
+}
