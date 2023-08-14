@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+int a=67;
+float b;
+b=a;
+printf("value of b=%f", b);
+return 0;
+}
