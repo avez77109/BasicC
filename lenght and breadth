@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main() {
+float l,b,a,p;
+printf("enter your length=");
+scanf("%f" , &l);
+printf("enter your breadth=");
+scanf("%f" , &b);
+a=l*b;
+p=2 *(l+b);
+printf("area is %0.3f" , a);
+printf("perimeter is %0.2f" ,p);
+printf("\nthank you");
+return 0;
+}
