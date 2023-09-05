@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+ 
+int main()
+{
+    int q , rem , n , i , rev=0; 
+    printf("enter number=");
+    scanf("%d" ,&n);
+    for (i=1 ; n>0 ; i++)
+    {
+       rem=n%10;
+       rev=(rev*10)+rem;
+       q=n/10;
+       n=q;
+    }
+    printf("reverse number is=%d" ,rev );
+
+    return 0;
+}
