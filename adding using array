@@ -1,0 +1,11 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int c, b[5]={2 , 3 , 4 , 5 };
+    printf("%d %d %d %d %d",b[4],b[0],b[1],b[2],b[3]);
+    c=b[3]+b[2];
+    printf("\nc = %d" ,c);
+    
+    return 0;
+}
