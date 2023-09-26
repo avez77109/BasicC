@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a[5]={12,87,45,65,10};
+    int large,i;
+    
+   
+    for(i=1;i<=4;i++)
+    {
+       if(a[i]>large) 
+       {
+          large=a[i];
+       }
+    }
+    printf("largest no = %d",large);
+
+    return 0;
+}
