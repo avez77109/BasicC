@@ -1,0 +1,61 @@
+program 01
+#include <stdio.h>
+
+int main() 
+{
+    char name[50]="AVEZ";
+    int i=strlen(name);
+    printf("length of name is=%d",i);
+    return 0;
+}
+program 02
+#include <string.h>
+#include <stdio.h>
+
+
+int main() 
+{
+    char fname[50]="AVEZ";
+    char lname[50]=" MUKADAM.";
+   
+    
+    printf("full name is= %s",strcat(fname,lname));
+    return 0;
+}
+program 03
+// Online C compiler to run C program online
+#include <string.h>
+#include <stdio.h>
+
+
+int main() 
+{
+   char str1[10]="hello";
+   char str2[10]="hello";
+   char name;
+   if(strcmp(str1,str2)==0)
+   {
+       printf("they are same string");
+   }
+   else
+   {
+       printf("they are not same string");   
+   }
+   
+    return 0;
+}
+program 04
+// Online C compiler to run C program online
+#include <string.h>
+#include <stdio.h>
+
+
+int main() 
+{
+   char str2[10]="hello";
+   char str1[10];
+   char name;
+   strcpy(str1,str2);
+  printf("string1 is %s",str1);
+    return 0;
+}
