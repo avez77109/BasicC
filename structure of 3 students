@@ -9,7 +9,7 @@ struct student
 void main()
 {
     int i;
-    for(i=0;i<3;i++)
+    for(i=0;i<=2;i++)
     {
         printf("enter name,marks&age=");
         scanf("%s%d%d",s[i].name,&s[i].marks,&s[i].age);
@@ -17,7 +17,7 @@ void main()
     
     for(i=0;i<3;i++)
     {
-    printf("details of students\n");
+    printf("-------details of students-------\n");
     printf("name is %s\n",s[i].name);
     printf("age is %d\n",s[i].age);
     printf("marks is %d\n",s[i].marks);
