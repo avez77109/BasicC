@@ -15,12 +15,13 @@ int main()
 {
     printf("cid,cname,sname&rollno=");
     scanf("%d%s%s%d",&c1.cid,c1.cname,c1.s.sname,&c1.s.rollno);
-    
+    printf("----basic details----\n");
     printf("college id is %d\n",c1.cid);
     printf("college name is %s\n",c1.cname);
     printf("student name is %s\n",c1.s.sname);
     printf("student roll no is %d\n",c1.s.rollno);
-        
+    printf("----your details in brief----\n");
+    printf("hi I am an AI and i am here to give your information so,your name is %s your are from %s your college id is %d and your roll no is %d",c1.s.sname,c1.cname,c1.cid,c1.s.rollno);    
 }
 
     
