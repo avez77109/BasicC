@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void fun1()
+{
+    printf("i am in fun 1\n");
+}
+void fun2()
+{
+    printf("i am in fun 2\n");
+}
+int main()
+{
+    printf("i am in main\n");
+    fun1();
+    printf("i am back in main\n");
+    fun2();
+    printf("i am the end of main");
+    
+}
