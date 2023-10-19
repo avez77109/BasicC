@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+    {
+        int a=15;
+        a=10;
+        int *b=14;
+        b=&a;
+        
+        printf("value of a=%d\n",a);
+        printf("value of a=%d\n",&a);
+        printf("value of b=%d\n",b);
+        printf("value of b=%d\n",&b);
+        printf("value of a=%d\n",*b);
+    }
