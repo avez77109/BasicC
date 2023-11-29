@@ -8,13 +8,8 @@ struct student
 }s1;
 void main()
 {
-    printf("enter name=");
-    scanf("%s",s1.name);
-    printf("enter age=");
-    scanf("%d",&s1.age);
-    printf("enter marks=");
-    scanf("%d",&s1.marks);
-    
+    printf("enter name,enter age,enter marks=");
+    scanf("%s%d%d",s1.name,&s1.age,&s1.marks);
     printf("details of students\n");
     printf("name is %s\n",s1.name);
     printf("age is %d\n",s1.age);
