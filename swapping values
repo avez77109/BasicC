@@ -6,15 +6,15 @@ int main() {
     scanf("%d", &a);
     printf("enter second number b=");
     scanf("%d", &b);
-    printf("previous swapping a=%d" ,a);
-    printf("\n");
-    printf("previous swapping b=%d" ,b);
-    printf("\n");
+    printf("swapping details\n");
+    printf("------\n");
+    printf("previous swapping a=%d\n" ,a);
+    printf("previous swapping b=%d\n" ,b);
     c=a;
     a=b;
     b=c;
-    printf("after swapping a=%d" ,a);
-    printf("\n");
+    printf("------\n");
+    printf("after swapping a=%d\n" ,a);
     printf("after swapping b=%d" ,b);
 
     return 0;
